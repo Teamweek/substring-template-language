@@ -4,7 +4,7 @@
   "description": "A tiny template language for escaping substrings of longer strings",
   "main": "index.js",
   "scripts": {
-    "test": "node test/main.js | tap-spec",
+    "test": "node test/main.js | tap-spec"
   },
   "author": "Serge Herkül",
   "license": "ISC",
