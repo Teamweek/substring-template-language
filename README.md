@@ -5,6 +5,11 @@ A tiny template language for escaping substrings of longer strings.
 
 There are no variables in the Substring template language. It is a tiny utility for escaping and trimming substrings.
 
+## Installation
+```
+npm i substring-template-language --save
+```
+
 ## Usage
 
 ```javascript
