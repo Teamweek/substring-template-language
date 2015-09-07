@@ -1,0 +1,27 @@
+{
+  "name": "substring-template-language",
+  "version": "1.0.0",
+  "description": "A tiny template language for escaping substrings of longer strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/main.js | tap-spec",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "author": "Serge Herkül",
+  "license": "ISC",
+  "devDependencies": {
+    "precommit-hook": "^3.0.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "trim": "0.0.1"
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
+}
